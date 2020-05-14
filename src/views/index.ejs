@@ -1,10 +1,11 @@
-<%- include header.ejs %>
+<%- include('header') %>
 
 <div class="container">
     <h1><%= title %></h1>
-    <a href="/profile" class="href">Profile</a>
-    <br />
-    <a href="/transfer" class="href">Transfer</a>
+    <a href="/profile">Profile</a>
 </div>
 
-<%- include footer.ejs %>
+<br />
+<a href="/transfer">Transfer</a>
+
+<%- include('footer') %>
